@@ -1,6 +1,8 @@
 blob-store
 compile-cache
+packages
 dev
 storage
+split-diff
 .node-gyp
 .npm

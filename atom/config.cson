@@ -1,0 +1,28 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "18f074e0-b84e-4093-b0a8-2bd4b54d923d"
+  core:
+    disabledPackages: [
+      "language-gfm"
+    ]
+    telemetryConsent: "limited"
+  editor: {}
+  "exception-reporting":
+    userId: "4cd1a00e-43ff-1415-89c0-870eb1ded69f"
+  "language-babel":
+    allowLocalOverride: true
+    autoIndentJSX: true
+    createTranspiledCode: true
+    transpileOnSave: true
+  "linter-clang":
+    clangDefaultCFlags: "-Wall -std=gnu99"
+  "linter-gcc":
+    execPath: "/usr/bin/gcc"
+    gccDefaultCFlags: "-std=gnu99 -Wall -g"
+  "linter-ui-default": {}
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
+  welcome:
+    showOnStartup: false
