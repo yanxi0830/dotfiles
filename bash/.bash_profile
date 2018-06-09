@@ -6,7 +6,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
 # Alias ls to show all
-alias ls='ls -GFhl'
+alias ll='ls -GFhl'
 
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
