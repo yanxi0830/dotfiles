@@ -14,5 +14,11 @@ export GREP_OPTIONS='--color=auto'
 # Colored prompt
 export TERM="xterm-color"
 
-# added by Anaconda3 5.1.0 installer
-export PATH="/Users/xiyan/anaconda3/bin:$PATH"
+# add folder myPDDL to PATH
+export PATH="/Users/xiyan/Library/Application Support/Sublime Text 3/Packages/myPDDL:$PATH"
+
+# Malmo
+export MALMO_XSD_PATH=/Users/xiyan/MalmoPlatformBinary/MalmoPlatform/Schemas
+
+# Anaconda
+. /Users/xiyan/anaconda3/etc/profile.d/conda.sh
