@@ -1,6 +1,13 @@
 set number
+syntax enable
+set background=dark
+colorscheme solarized
 set splitbelow
 set splitright
 
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" powerline
+" set rtp+=/Users/xiyan/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
+" catch
+" set laststatus=2
+" set t_Co=256
+
